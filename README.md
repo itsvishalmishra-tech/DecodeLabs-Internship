@@ -28,4 +28,7 @@ Platform
 Author
 
 Vishal Mishra
-B.Tech Student
+B.Tech Student 
+
+## Wokwi Simulation
+https://wokwi.com/projects/466633747496214529
