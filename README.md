@@ -1,26 +1,28 @@
 Smart Environment Monitor
 
-Components Used
+A smart environmental monitoring system implemented using both Arduino Uno and ESP32.
 
-- Arduino Uno
-- DHT22 Sensor
-- LCD 16x2 I2C
-- SSD1306 OLED Display
-- RGB LED
-- Buzzer
-- Servo Motor
-- LDR Sensor
+Versions
+
+Arduino_Uno_Version
+
+- Arduino Uno based implementation
+
+ESP32_Version
+
+- ESP32 DevKit V1 based implementation
 
 Features
 
-- Displays Temperature and Humidity on LCD and OLED.
-- RGB LED indicates temperature status.
-- Buzzer activates when temperature exceeds threshold.
-- Servo motor rotates automatically.
-- LDR sensor measures ambient light intensity.
-- Serial Monitor displays real-time sensor data.
+- Temperature Monitoring
+- Humidity Monitoring
+- Light Intensity Monitoring
+- RGB LED Status Indicator
+- Buzzer Alert
+- Servo Motor Control
+- LCD and OLED Display
 
-Platform
+Software Used
 
 - Wokwi Simulator
 - Arduino IDE
@@ -28,7 +30,10 @@ Platform
 Author
 
 Vishal Mishra
-B.Tech Student 
+B.Tech Student
 
-## Wokwi Simulation
+Smart-Environment-Monitor-Arduino
 https://wokwi.com/projects/466633747496214529
+
+Smart-Environment-Monitor-ESP32
+https://wokwi.com/projects/466689751681985537
