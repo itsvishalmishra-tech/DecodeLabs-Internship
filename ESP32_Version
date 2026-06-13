@@ -1,0 +1,37 @@
+Smart Environment Monitor - ESP32 Version
+
+Overview
+
+This project is based on ESP32 and is designed to monitor environmental conditions in real time. It displays temperature, humidity, and light intensity while providing visual and audible alerts.
+
+Components Used
+
+- ESP32 DevKit V1
+- DHT22 Sensor
+- 16x2 I2C LCD Display
+- SSD1306 OLED Display
+- RGB LED
+- Buzzer
+- Servo Motor
+- LDR Sensor
+
+Features
+
+- Real-time Temperature Monitoring
+- Humidity Monitoring
+- Light Intensity Detection
+- LCD and OLED Display Output
+- RGB LED Status Indication
+- Buzzer Alert System
+- Automatic Servo Motor Control
+- Serial Monitor Output
+
+Platform
+
+- Wokwi Simulator
+- Arduino IDE
+
+Author
+
+Vishal Mishra
+B.Tech Student
