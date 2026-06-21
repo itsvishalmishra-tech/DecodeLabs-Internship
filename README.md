@@ -32,8 +32,8 @@ Author
 Vishal Mishra
 B.Tech Student
 
-Smart-Environment-Monitor-Arduino
-https://wokwi.com/projects/466633747496214529
-
-Smart-Environment-Monitor-ESP32
+Smart-Environment-Monitor
 https://wokwi.com/projects/466689751681985537
+
+Automated_Irrigation_Controller
+https://wokwi.com/projects/467186880132395009
