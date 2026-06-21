@@ -1,39 +1,67 @@
-Smart Environment Monitor
+Smart IoT Projects Collection
 
-A smart environmental monitoring system implemented using both Arduino Uno and ESP32.
+Overview
 
-Versions
+This repository contains two IoT-based projects developed using Arduino IDE and simulated on Wokwi. These projects demonstrate the application of embedded systems and IoT in environmental monitoring and smart agriculture.
 
-Arduino_Uno_Version
+Project 1: Smart Environment Monitoring System
 
-- Arduino Uno based implementation
+Description
 
-ESP32_Version
-
-- ESP32 DevKit V1 based implementation
+A system based on ESP32 that monitors environmental conditions and provides alerts when abnormal values are detected.
 
 Features
 
-- Temperature Monitoring
-- Humidity Monitoring
-- Light Intensity Monitoring
-- RGB LED Status Indicator
-- Buzzer Alert
-- Servo Motor Control
-- LCD and OLED Display
+- Temperature and humidity monitoring
+- Gas level detection
+- LED indication
+- Buzzer alert system
+- Real-time monitoring through Serial Monitor
 
-Software Used
+Simulation Link
 
-- Wokwi Simulator
+https://wokwi.com/projects/466689751681985537
+
+---
+
+Project 2: Automatic Irrigation Control System
+
+Description
+
+An Arduino-based system that automatically controls water supply according to soil moisture conditions.
+
+Features
+
+- Soil moisture monitoring
+- Automatic irrigation control
+- LED status indication
+- Efficient water usage
+
+Simulation Link
+
+https://wokwi.com/projects/467186880132395009
+
+---
+
+Technologies Used
+
 - Arduino IDE
+- ESP32
+- Arduino Uno
+- Wokwi Simulator
+- Embedded C/C++
+
+Applications
+
+- Smart Agriculture
+- Environmental Monitoring
+- Water Conservation
+- Home Automation
 
 Author
 
-Vishal Mishra
-B.Tech Student
+Vishal Kumar Mishra
 
-Smart-Environment-Monitor
-https://wokwi.com/projects/466689751681985537
+Purpose
 
-Automated_Irrigation_Controller
-https://wokwi.com/projects/467186880132395009
+This repository is created for educational and learning purposes.
