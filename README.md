@@ -45,11 +45,10 @@ https://wokwi.com/projects/467186880132395009
 
 Technologies Used
 
-- Arduino IDE
 - ESP32
 - Arduino Uno
 - Wokwi Simulator
-- Embedded C/C++
+- Internet of Things(IOT)
 
 Applications
 
@@ -61,6 +60,7 @@ Applications
 Author
 
 Vishal Kumar Mishra
+B.Tech ECE Student
 
 Purpose
 
