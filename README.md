@@ -242,6 +242,6 @@ Vishal Mishra
 
 <div align="center">⭐ If you found these projects useful, consider giving this repository a Star!
 
-Thank you for visiting my repository! Happy Coding! 🚀
+Thank you for visiting my repository! 
 
 </div>
