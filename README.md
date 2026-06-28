@@ -1,332 +1,567 @@
-🚀 DecodeLabs Internship Portfolio
+# 🚀 DecodeLabs Internship Portfolio
 
-<div align="center">🌍 ESP32 IoT Projects Collection
+<div align="center">
 
-Smart Environment Monitoring • Smart Irrigation • Cloud Security
+# 🌍 ESP32 IoT Projects Collection
 
-<p align="center">
-<img src="https://img.shields.io/badge/ESP32-IoT-blue?style=for-the-badge&logo=espressif">
-<img src="https://img.shields.io/badge/Arduino-C++-00979D?style=for-the-badge&logo=arduino">
-<img src="https://img.shields.io/badge/Wokwi-Simulator-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/Blynk-IoT-red?style=for-the-badge">
-<img src="https://img.shields.io/badge/Embedded-Systems-success?style=for-the-badge">
-</p>A collection of ESP32-based IoT projects developed during the DecodeLabs Internship, showcasing Smart Automation, Embedded Systems, Cloud Connectivity, and Real-Time Monitoring.
+### Smart Environment Monitoring • Smart Irrigation • Cloud Security • Smart Home Appliance Security
 
-</div>---
+![ESP32](https://img.shields.io/badge/ESP32-IoT-red?style=for-the-badge)
+![Arduino](https://img.shields.io/badge/Arduino-C++-00979D?style=for-the-badge)
+![Wokwi](https://img.shields.io/badge/Wokwi-Simulator-orange?style=for-the-badge)
+![Blynk](https://img.shields.io/badge/Blynk-IoT-blue?style=for-the-badge)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-ESP32-orange?style=for-the-badge)
 
-📖 About Repository
-
-This repository contains three ESP32-based IoT projects developed during my DecodeLabs Internship. Each project focuses on solving real-world challenges using embedded systems, sensors, automation, and cloud technologies.
-
-The projects were designed and tested using ESP32, Arduino IDE, Wokwi Simulator, and Blynk IoT Platform.
+</div>
 
 ---
 
-🛠️ Tech Stack
+# 📖 About Repository
 
-Category| Technologies
-Controller| ESP32 DevKit
-Programming| Arduino C++
-IDE| Arduino IDE
-Simulator| Wokwi
-Cloud Platform| Blynk IoT
-Displays| OLED SSD1306, LCD1602 I2C
-Sensors| DHT22, HC-SR04, PIR, Soil Moisture
-Actuators| Servo Motor, Relay
-Indicators| RGB LED, Buzzer
+This repository contains four ESP32-based IoT projects developed during the DecodeLabs Internship. Each project demonstrates practical applications of embedded systems, cloud connectivity, sensors, automation, and real-time monitoring using the ESP32 microcontroller.
+
+The projects were designed using Arduino C++, simulated in Wokwi, and integrated with the Blynk IoT Cloud wherever required.
 
 ---
 
-📂 Projects Included
+# 📂 Repository Projects
 
-Project| Description
-🌍 Smart Environment Monitoring System| Real-time environmental monitoring with smart alerts
-🌱 IoT-Based Automated Irrigation Controller| Smart irrigation using soil moisture and environmental data
-🔐 Cloud Connected Security Node| IoT security system with cloud monitoring and smart access control
-
----
-
-🌍 Project 1 — Smart Environment Monitoring System
-
-📸 Project Preview
-
-<p align="center">
-<img src="IMAGES/environment_monitor.jpg" width="750">
-</p>📖 Overview
-
-The Smart Environment Monitoring System continuously monitors temperature, humidity, air quality, and system health using ESP32. It provides real-time data visualization, smart alerts, and automated responses for a safer environment.
-
-✨ Key Features
-
-- 🌡 Real-time Temperature Monitoring
-- 💧 Humidity Detection
-- 🌫 Air Quality Monitoring
-- 📟 OLED Live Display
-- 🌈 RGB Status Indicator
-- 🔔 Smart Alert System
-- ⚙️ Automated Response Mechanism
-- 📡 ESP32 Wi-Fi Ready Architecture
-
-🛠️ Hardware Components
-
-- ESP32 Development Board
-- DHT22 Sensor
-- Gas / Air Quality Sensor
-- OLED SSD1306 Display
-- RGB LED
-- Buzzer
-- Servo Motor
-- Resistors & Jumper Wires
-
-⚙️ Working Principle
-
-1. Sensors continuously collect environmental data.
-2. ESP32 processes the sensor readings in real time.
-3. OLED displays live environmental values.
-4. RGB LED changes according to the current status.
-5. Buzzer activates whenever abnormal conditions are detected.
-6. The system continuously monitors and alerts users for improved safety.
-
-🔗 Wokwi Simulation
-
-https://wokwi.com/projects/466689751681985537
-
----
-🌱 Project 2 — IoT-Based Automated Irrigation Controller
-
-📸 Project Preview
-
-<p align="center">
-<img src="IMAGES/irrigation_controller.jpg" width="750">
-</p>📖 Overview
-
-The IoT-Based Automated Irrigation Controller is a smart agriculture solution that automates irrigation decisions using real-time soil moisture and environmental data. The system minimizes water wastage, improves crop productivity, and promotes sustainable farming through intelligent automation.
-
-✨ Key Features
-
-- 🌱 Automatic Irrigation Control
-- 💧 Dual Soil Moisture Monitoring
-- 🌡 Temperature & Humidity Monitoring
-- 📟 LCD Display Interface
-- 📊 OLED Data Visualization
-- ⚡ Smart Pump Control Logic
-- 🔔 Low Water & Alert Notifications
-- 🌍 Sustainable Water Management
-
-🛠️ Hardware Components
-
-- ESP32 Development Board
-- Soil Moisture Sensors
-- DHT22 Sensor
-- Relay Module
-- Water Pump (Simulated)
-- LCD1602 I2C Display
-- OLED SSD1306 Display
-- Buzzer
-- Jumper Wires
-
-⚙️ Working Principle
-
-1. Soil moisture sensors continuously monitor soil conditions.
-2. ESP32 analyzes the moisture level against predefined thresholds.
-3. If the soil becomes dry, the relay activates the water pump automatically.
-4. Once sufficient moisture is achieved, irrigation stops automatically.
-5. LCD and OLED displays provide live sensor readings and pump status.
-6. The system ensures efficient water usage while reducing manual intervention.
-
-🔗 Wokwi Simulation
-
-https://wokwi.com/projects/467186880132395009
+| Project | Description |
+|----------|-------------|
+| 🌍 Smart Environment Monitoring System | Real-time monitoring of temperature, humidity, air quality, and environmental conditions. |
+| 🌱 IoT-Based Smart Irrigation System | Automatic irrigation using soil moisture sensing and cloud monitoring. |
+| 🔐 Cloud Connected Security Node | ESP32-based IoT security system with cloud monitoring and alert system. |
+| 🏠 Smart Home Appliance Security System | Multi-sensor smart home security with OLED, LCD, Servo, Keypad and Blynk. |
 
 ---
 
-🔐 Project 3 — Cloud Connected Security Node
-
-📸 Project Preview
-
-<p align="center">
-<img src="IMAGES/security_node.jpg" width="750">
-</p>📖 Overview
-
-The Cloud Connected Security Node is an advanced IoT security system designed to provide intelligent intrusion detection, secure access control, and cloud-based monitoring. It integrates multiple sensors with ESP32 and the Blynk IoT platform to deliver real-time alerts, remote monitoring, and enhanced security for smart environments.
-
-✨ Key Features
-
-- 🚨 Intrusion Detection System
-- ☁️ Blynk Cloud Integration
-- 📡 Live IoT Telemetry
-- 🔑 Keypad Authentication
-- 🔒 Servo-Based Smart Lock
-- 📏 Ultrasonic Distance Monitoring
-- 👁 PIR Motion Detection
-- 🌡 Temperature & Humidity Monitoring
-- 📟 OLED Live Display
-- 📺 LCD Status Display
-- 🌈 RGB Security Indicators
-- 🔔 Alarm & Buzzer Alerts
-
-🛠️ Hardware Components
-
-- ESP32 Development Board
-- HC-SR04 Ultrasonic Sensor
-- PIR Motion Sensor
-- DHT22 Sensor
-- 4×4 Matrix Keypad
-- Servo Motor
-- OLED SSD1306 Display
-- LCD1602 I2C Display
-- RGB LED
-- Buzzer
-- Blynk IoT Platform
-
-⚙️ Working Principle
-
-1. PIR and ultrasonic sensors continuously monitor the protected area.
-2. ESP32 processes all sensor data in real time.
-3. Unauthorized activity triggers visual and audible alerts.
-4. The keypad authenticates users before unlocking the smart lock.
-5. Servo motor controls the locking mechanism securely.
-6. Live sensor data and security status are displayed on OLED, LCD, and the Blynk dashboard for remote monitoring.
-
-🔗 Wokwi Simulation
-
-https://wokwi.com/projects/467558183957384193
-
----
----
-
-# 🌍 Project 4 — Smart Home Appliance Security System
+# 🌍 Project 1 — Smart Environment Monitoring System
 
 ## 📷 Project Preview
 
-![Project Screenshot](images/project4/home1.png)
+> **Add your screenshot here**
+
+```md
+![Project Screenshot](images/project1.png)
+
+---
+
+📖 Overview
+
+The Smart Environment Monitoring System continuously monitors environmental conditions using ESP32 and multiple sensors. It measures temperature, humidity, air quality, and displays real-time information on the OLED display. The project can also send cloud data through Blynk for remote monitoring.
+
+---
+
+✨ Key Features
+
+- 🌡️ Real-Time Temperature Monitoring
+- 💧 Humidity Detection
+- 🌫️ Air Quality Monitoring
+- 📟 OLED Live Display
+- 🌈 RGB LED Status Indicator
+- 🔔 Smart Alert System
+- ☁️ Blynk Cloud Monitoring
+- 📊 Live Sensor Data Visualization
+
+---
+
+🛠 Components Used
+
+- ESP32 DevKit V1
+- DHT11/DHT22 Sensor
+- MQ2 Gas Sensor
+- OLED Display
+- RGB LED
+- Buzzer
+- Jumper Wires
+- Breadboard
+
+---
+
+⚙️ Technologies Used
+
+- ESP32
+- Arduino C++
+- Wokwi Simulator
+- Blynk IoT
+- Embedded Systems
+
+---
+
+🚀 Working Principle
+
+1. ESP32 reads sensor values.
+2. Temperature and humidity are measured using DHT11.
+3. MQ2 detects harmful gases.
+4. OLED displays live readings.
+5. RGB LED indicates system status.
+6. Buzzer alerts during abnormal conditions.
+7. Sensor values are uploaded to Blynk Cloud.
+
+---
+
+📂 Project Files
+
+- Source Code
+- Circuit Diagram
+- Wokwi Simulation
+- README Documentation
+
+---
+
+🔗 Wokwi Simulation
+
+«Paste your Wokwi Project Link here»
+
+---
+
+📸 Output
+
+«Add project screenshot here.»
+
+---
+# 🌱 Project 2 — IoT-Based Smart Irrigation System
+
+## 📷 Project Preview
+
+> **Add your screenshot here**
+
+```md
+![Project Screenshot](images/project2.png)
+```
 
 ---
 
 ## 📖 Overview
 
-The **Smart Home Appliance Security System** is an ESP32-based IoT project that provides intelligent home security through cloud connectivity and real-time monitoring. It integrates multiple sensors and smart devices to detect gas leakage, high temperature, unauthorized access, and environmental conditions while displaying live information on OLED and LCD displays. The system also sends instant notifications using the Blynk IoT platform.
+The IoT-Based Smart Irrigation System automates irrigation by continuously monitoring soil moisture levels using an ESP32 microcontroller. When the soil becomes dry, the system automatically activates the water pump and stops it when sufficient moisture is detected. The project also supports real-time monitoring through the Blynk IoT platform, reducing water wastage and improving irrigation efficiency.
+
+---
+
+## ✨ Key Features
+
+- 🌱 Automatic Irrigation Control
+- 💧 Soil Moisture Monitoring
+- 🚰 Automatic Water Pump Control
+- ☁️ Blynk Cloud Monitoring
+- 📱 Remote Monitoring using Mobile
+- 📟 OLED/LCD Status Display
+- 🌈 RGB LED Status Indicator
+- 🔔 Smart Alert Notifications
+- ⚡ Low Power IoT Solution
+- 🌍 Water Conservation System
+
+---
+
+## 🛠 Components Used
+
+- ESP32 DevKit V1
+- Soil Moisture Sensor
+- Relay Module
+- Water Pump (Simulated)
+- OLED Display
+- RGB LED
+- Jumper Wires
+- Breadboard
+
+---
+
+## ⚙️ Technologies Used
+
+- ESP32
+- Arduino C++
+- Wokwi Simulator
+- Blynk IoT
+- Embedded Systems
+
+---
+
+## 🚀 Working Principle
+
+1. ESP32 continuously reads the soil moisture sensor.
+2. If soil moisture falls below the threshold, the relay turns ON.
+3. The relay activates the water pump.
+4. Once adequate moisture is reached, the pump automatically turns OFF.
+5. Live system status is displayed on the OLED/LCD.
+6. Sensor values are sent to the Blynk Cloud.
+7. Users can monitor irrigation remotely using the Blynk mobile app.
+
+---
+
+## 📂 Project Files
+
+- Source Code
+- Circuit Diagram
+- Wokwi Simulation
+- README Documentation
+
+---
+
+## 🔗 Wokwi Simulation
+
+> Paste your Wokwi Project Link here.
+
+---
+
+## 📸 Output
+
+> Add project screenshot here.
+
+---
+# 🔐 Project 3 — Cloud Connected Security Node
+
+## 📷 Project Preview
+
+> **Add your screenshot here**
+
+```md
+![Project Screenshot](images/project3.png)
+```
+
+---
+
+## 📖 Overview
+
+The Cloud Connected Security Node is an ESP32-based IoT security system designed to monitor environmental conditions and improve home safety through cloud connectivity. It continuously monitors temperature, humidity, gas leakage, and ambient light while displaying live information on OLED and LCD displays. Using the Blynk IoT platform, users can remotely monitor the system and receive instant alerts whenever abnormal conditions are detected.
+
+---
+
+## ✨ Key Features
+
+- ☁️ Cloud Monitoring using Blynk
+- 🌡️ Temperature Monitoring
+- 💧 Humidity Monitoring
+- 🔥 MQ2 Gas Leak Detection
+- 💡 Automatic Light Detection (LDR)
+- 📟 OLED Live Sensor Display
+- 🖥️ LCD Status Display
+- 🌈 RGB LED Status Indicator
+- 🔔 Smart Buzzer Alarm
+- 📱 Remote Monitoring from Mobile
+- ⚡ Real-Time Sensor Updates
+
+---
+
+## 🛠 Components Used
+
+- ESP32 DevKit V1
+- DHT11 Sensor
+- MQ2 Gas Sensor
+- LDR Sensor
+- OLED Display
+- 16x2 LCD Display (I2C)
+- RGB LED
+- Active Buzzer
+- Blynk IoT Platform
+- Breadboard
+- Jumper Wires
+
+---
+
+## ⚙️ Technologies Used
+
+- ESP32
+- Arduino C++
+- Wokwi Simulator
+- Blynk IoT
+- Embedded Systems
+- IoT Cloud
+
+---
+
+## 🚀 Working Principle
+
+1. ESP32 continuously reads all connected sensors.
+2. DHT11 measures temperature and humidity.
+3. MQ2 detects gas leakage.
+4. LDR measures surrounding light intensity.
+5. OLED and LCD display live sensor values.
+6. RGB LED indicates SAFE or WARNING status.
+7. Buzzer activates during abnormal conditions.
+8. All sensor data is uploaded to the Blynk Cloud.
+9. Users can monitor the system remotely through the Blynk mobile application.
+
+---
+
+## 📂 Project Files
+
+- Source Code
+- Circuit Diagram
+- Wokwi Simulation
+- README Documentation
+
+---
+
+## 🔗 Wokwi Simulation
+
+> Paste your Wokwi project link here.
+
+---
+
+## 📸 Output
+
+> Add project screenshot here.
+
+---
+# 🏠 Project 4 — Smart Home Appliance Security System
+
+## 📷 Project Preview
+
+> **Add your screenshot here**
+
+```md
+![Project Screenshot](images/project4.png)
+```
+
+---
+
+## 📖 Overview
+
+The Smart Home Appliance Security System is an ESP32-based IoT project developed to improve home security and automation. It integrates multiple sensors and smart devices to monitor environmental conditions, detect gas leakage, control door access through password authentication, and provide real-time cloud monitoring using the Blynk IoT platform. The system displays live information on both OLED and LCD displays while providing visual and audible alerts during emergency situations.
 
 ---
 
 ## ✨ Key Features
 
 - 🔐 Password Protected Smart Door Lock
-- ☁️ Cloud Monitoring using Blynk
+- ☁️ Blynk Cloud Monitoring
 - 🔥 MQ2 Gas Leak Detection
-- 🌡️ Temperature & Humidity Monitoring (DHT11)
-- 💡 Automatic Light Detection (LDR)
-- 🚨 Smart Buzzer Alarm System
-- 🌈 RGB LED Status Indicator
-- 📺 OLED Live Sensor Display
-- 📟 LCD Status Display
+- 🌡️ Temperature & Humidity Monitoring
+- 💡 Automatic LDR Light Detection
 - 🔢 4×4 Keypad Authentication
 - ⚙️ Servo Motor Door Control
-- 📡 Real-Time IoT Monitoring
+- 📟 OLED Live Sensor Display
+- 🖥️ LCD Status Display
+- 🌈 RGB LED Status Indicator
+- 🚨 Smart Buzzer Alarm
+- 📱 Real-Time IoT Monitoring
+- ⚡ Intelligent Home Automation
 
 ---
 
-## 🛠️ Hardware Components
+## 🛠 Components Used
 
 - ESP32 DevKit V1
-- OLED Display (SSD1306)
-- LCD 16×2 I2C
 - DHT11 Sensor
 - MQ2 Gas Sensor
 - LDR Sensor
+- OLED Display (SSD1306)
+- 16×2 LCD Display (I2C)
+- 4×4 Matrix Keypad
 - Servo Motor
 - RGB LED
-- Buzzer
-- 4×4 Matrix Keypad
+- Active Buzzer
 - Blynk IoT Platform
+- Breadboard
+- Jumper Wires
 
 ---
 
-## 💻 Software & Technologies
+## ⚙️ Technologies Used
 
-- Arduino C++
 - ESP32
+- Arduino C++
+- PlatformIO
+- Wokwi Simulator
+- Blynk IoT
+- Embedded Systems
+- IoT Cloud
+
+---
+
+## 🚀 Working Principle
+
+1. The user enters a password using the keypad.
+2. If the password is correct, the servo motor unlocks the door.
+3. DHT11 continuously monitors temperature and humidity.
+4. MQ2 detects gas leakage in real time.
+5. LDR monitors ambient light intensity.
+6. OLED and LCD display live sensor readings.
+7. RGB LED indicates the current system status.
+8. The buzzer activates whenever dangerous conditions are detected.
+9. Sensor values are uploaded to the Blynk Cloud for remote monitoring.
+10. Users can monitor the complete system from the Blynk mobile application.
+
+---
+
+## 📂 Project Files
+
+- Source Code
+- Circuit Diagram
+- Wokwi Simulation
+- README Documentation
+
+---
+
+## 🔗 Wokwi Simulation
+
+> Paste your Wokwi Project Link here.
+
+---
+
+## 📸 Output
+
+> Add your project screenshots here.
+
+```md
+![Screenshot 1](images/project4.png)
+
+![Screenshot 2](images/project4_output.png)
+```
+
+---
+
+## 🎯 Project Outcome
+
+This project demonstrates a complete cloud-connected smart home security solution capable of protecting home appliances and providing real-time monitoring through IoT technology. It combines embedded systems, cloud computing, automation, and sensor integration into a single intelligent security platform.
+
+---
+# 📁 Repository Structure
+
+```text
+DecodeLabs-Internship
+│
+├── README.md
+│
+├── Project-1-Smart-Environment-Monitoring
+│   ├── src
+│   ├── platformio.ini
+│   ├── diagram.json
+│   └── images
+│
+├── Project-2-Smart-Irrigation-System
+│   ├── src
+│   ├── platformio.ini
+│   ├── diagram.json
+│   └── images
+│
+├── Project-3-Cloud-Connected-Security-Node
+│   ├── src
+│   ├── platformio.ini
+│   ├── diagram.json
+│   └── images
+│
+└── Project-4-Smart-Home-Appliance-Security-System
+    ├── src
+    ├── platformio.ini
+    ├── diagram.json
+    ├── wokwi.toml
+    └── images
+```
+
+---
+
+# 💻 Software & Tools Used
+
+- ESP32 DevKit V1
+- Arduino C++
 - PlatformIO
 - Wokwi Simulator
 - Blynk IoT
 - GitHub
+- VS Code
 
 ---
 
-## ⚙️ Working Principle
+# 🚀 Getting Started
 
-1. User enters the password through the keypad.
-2. If the password is correct, the servo unlocks the door.
-3. The DHT11 continuously monitors temperature and humidity.
-4. The MQ2 sensor detects gas leakage.
-5. The LDR monitors ambient light conditions.
-6. OLED and LCD display live sensor values.
-7. RGB LED indicates system status.
-8. Buzzer activates during emergencies.
-9. Sensor data is sent to the Blynk cloud for remote monitoring.
+## Clone Repository
 
----
+```bash
+git clone https://github.com/YOUR_USERNAME/DecodeLabs-Internship.git
+```
 
-## 🚀 Project Outcome
+## Open Project
 
-This project demonstrates a cloud-connected smart home security solution capable of monitoring environmental conditions, protecting home access, detecting emergencies, and providing real-time IoT notifications. It showcases embedded systems, cloud computing, and IoT integration using ESP32.
+Open the required project folder using **VS Code + PlatformIO**.
 
----
+## Install Libraries
 
-## 📷 Additional Screenshots
+Install all required dependencies from the `platformio.ini` file.
 
-![Simulation](images/project4/home2.png)
+## Build Project
 
-![Dashboard](images/project4/home3.png)
+Click the **Build (✓)** button in PlatformIO.
 
-📊 Project Comparison
+## Run Simulation
 
-Project| Domain| Status
-🌍 Smart Environment Monitoring| Environment| ✅ Completed
-🌱 Automated Irrigation Controller| Smart Agriculture| ✅ Completed
-🔐 Cloud Connected Security Node| Smart Security| ✅ Completed
+Open the project in **Wokwi Simulator** and start the simulation.
 
 ---
 
-🎯 Skills Demonstrated
+# 📸 Project Gallery
 
-- ESP32 Programming
-- Embedded C++
-- IoT System Development
-- Sensor Interfacing
-- Cloud Integration (Blynk)
-- Real-Time Monitoring
-- Smart Automation
-- Hardware Simulation using Wokwi
+Add screenshots of all projects here.
 
----
+## 🌍 Smart Environment Monitoring
 
-📂 Repository Structure
+```md
+![Environment](images/project1.png)
+```
 
-DecodeLabs-Internship/
-│
-├── Smart-Environment-Monitor/
-├── Automated-Irrigation-Controller/
-├── Cloud-Connected-Security-Node/
-├── IMAGES/
-└── README.md
+## 🌱 Smart Irrigation
 
----
+```md
+![Irrigation](images/project2.png)
+```
 
-👨‍💻 Author
+## 🔐 Cloud Connected Security Node
 
-Vishal Mishra
+```md
+![Security Node](images/project3.png)
+```
 
-🎓 DecodeLabs Internship
+## 🏠 Smart Home Appliance Security
 
-🔧 ESP32 & IoT Developer
-
-📡 Embedded Systems Enthusiast
+```md
+![Smart Home](images/project4.png)
+```
 
 ---
 
-<div align="center">⭐ If you found these projects useful, consider giving this repository a Star!
+# 🔮 Future Improvements
 
-Thank you for visiting my repository! 
+- AI-Based Threat Detection
+- Voice Command Integration
+- Mobile Push Notifications
+- Smart Energy Monitoring
+- Face Recognition Door Lock
+- Fingerprint Authentication
+- Cloud Data Analytics
+- Google Assistant Integration
+- Alexa Integration
+- OTA Firmware Updates
 
-</div>
+---
+
+# 🎓 Internship
+
+Developed as part of the **DecodeLabs Internship Program**.
+
+---
+
+# 👩‍💻 Author
+
+**Dipti Kumari**
+
+- Embedded Systems Enthusiast
+- IoT Developer
+- ESP32 & Arduino Programmer
+
+---
+
+# ⭐ Support
+
+If you found these projects useful:
+
+⭐ Star this repository
+
+🍴 Fork the repository
+
+📢 Share it with others
+
+---
+
+# 📜 License
+
+This repository is created for educational purposes under the DecodeLabs Internship Program.
