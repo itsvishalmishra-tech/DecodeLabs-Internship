@@ -92,3 +92,156 @@ The Smart Environment Monitoring System continuously monitors temperature, humid
 https://wokwi.com/projects/466689751681985537
 
 ---
+🌱 Project 2 — IoT-Based Automated Irrigation Controller
+
+📸 Project Preview
+
+<p align="center">
+<img src="IMAGES/irrigation_controller.jpg" width="750">
+</p>📖 Overview
+
+The IoT-Based Automated Irrigation Controller is a smart agriculture solution that automates irrigation decisions using real-time soil moisture and environmental data. The system minimizes water wastage, improves crop productivity, and promotes sustainable farming through intelligent automation.
+
+✨ Key Features
+
+- 🌱 Automatic Irrigation Control
+- 💧 Dual Soil Moisture Monitoring
+- 🌡 Temperature & Humidity Monitoring
+- 📟 LCD Display Interface
+- 📊 OLED Data Visualization
+- ⚡ Smart Pump Control Logic
+- 🔔 Low Water & Alert Notifications
+- 🌍 Sustainable Water Management
+
+🛠️ Hardware Components
+
+- ESP32 Development Board
+- Soil Moisture Sensors
+- DHT22 Sensor
+- Relay Module
+- Water Pump (Simulated)
+- LCD1602 I2C Display
+- OLED SSD1306 Display
+- Buzzer
+- Jumper Wires
+
+⚙️ Working Principle
+
+1. Soil moisture sensors continuously monitor soil conditions.
+2. ESP32 analyzes the moisture level against predefined thresholds.
+3. If the soil becomes dry, the relay activates the water pump automatically.
+4. Once sufficient moisture is achieved, irrigation stops automatically.
+5. LCD and OLED displays provide live sensor readings and pump status.
+6. The system ensures efficient water usage while reducing manual intervention.
+
+🔗 Wokwi Simulation
+
+https://wokwi.com/projects/467186880132395009
+
+---
+
+🔐 Project 3 — Cloud Connected Security Node
+
+📸 Project Preview
+
+<p align="center">
+<img src="IMAGES/security_node.jpg" width="750">
+</p>📖 Overview
+
+The Cloud Connected Security Node is an advanced IoT security system designed to provide intelligent intrusion detection, secure access control, and cloud-based monitoring. It integrates multiple sensors with ESP32 and the Blynk IoT platform to deliver real-time alerts, remote monitoring, and enhanced security for smart environments.
+
+✨ Key Features
+
+- 🚨 Intrusion Detection System
+- ☁️ Blynk Cloud Integration
+- 📡 Live IoT Telemetry
+- 🔑 Keypad Authentication
+- 🔒 Servo-Based Smart Lock
+- 📏 Ultrasonic Distance Monitoring
+- 👁 PIR Motion Detection
+- 🌡 Temperature & Humidity Monitoring
+- 📟 OLED Live Display
+- 📺 LCD Status Display
+- 🌈 RGB Security Indicators
+- 🔔 Alarm & Buzzer Alerts
+
+🛠️ Hardware Components
+
+- ESP32 Development Board
+- HC-SR04 Ultrasonic Sensor
+- PIR Motion Sensor
+- DHT22 Sensor
+- 4×4 Matrix Keypad
+- Servo Motor
+- OLED SSD1306 Display
+- LCD1602 I2C Display
+- RGB LED
+- Buzzer
+- Blynk IoT Platform
+
+⚙️ Working Principle
+
+1. PIR and ultrasonic sensors continuously monitor the protected area.
+2. ESP32 processes all sensor data in real time.
+3. Unauthorized activity triggers visual and audible alerts.
+4. The keypad authenticates users before unlocking the smart lock.
+5. Servo motor controls the locking mechanism securely.
+6. Live sensor data and security status are displayed on OLED, LCD, and the Blynk dashboard for remote monitoring.
+
+🔗 Wokwi Simulation
+
+https://wokwi.com/projects/467558183957384193
+
+---
+
+📊 Project Comparison
+
+Project| Domain| Status
+🌍 Smart Environment Monitoring| Environment| ✅ Completed
+🌱 Automated Irrigation Controller| Smart Agriculture| ✅ Completed
+🔐 Cloud Connected Security Node| Smart Security| ✅ Completed
+
+---
+
+🎯 Skills Demonstrated
+
+- ESP32 Programming
+- Embedded C++
+- IoT System Development
+- Sensor Interfacing
+- Cloud Integration (Blynk)
+- Real-Time Monitoring
+- Smart Automation
+- Hardware Simulation using Wokwi
+
+---
+
+📂 Repository Structure
+
+DecodeLabs-Internship/
+│
+├── Smart-Environment-Monitor/
+├── Automated-Irrigation-Controller/
+├── Cloud-Connected-Security-Node/
+├── IMAGES/
+└── README.md
+
+---
+
+👨‍💻 Author
+
+Vishal Mishra
+
+🎓 DecodeLabs Internship
+
+🔧 ESP32 & IoT Developer
+
+📡 Embedded Systems Enthusiast
+
+---
+
+<div align="center">⭐ If you found these projects useful, consider giving this repository a Star!
+
+Thank you for visiting my repository! Happy Coding! 🚀
+
+</div>
