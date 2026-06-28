@@ -193,6 +193,91 @@ The Cloud Connected Security Node is an advanced IoT security system designed to
 https://wokwi.com/projects/467558183957384193
 
 ---
+---
+
+# 🌍 Project 4 — Smart Home Appliance Security System
+
+## 📷 Project Preview
+
+![Project Screenshot](images/project4/home1.png)
+
+---
+
+## 📖 Overview
+
+The **Smart Home Appliance Security System** is an ESP32-based IoT project that provides intelligent home security through cloud connectivity and real-time monitoring. It integrates multiple sensors and smart devices to detect gas leakage, high temperature, unauthorized access, and environmental conditions while displaying live information on OLED and LCD displays. The system also sends instant notifications using the Blynk IoT platform.
+
+---
+
+## ✨ Key Features
+
+- 🔐 Password Protected Smart Door Lock
+- ☁️ Cloud Monitoring using Blynk
+- 🔥 MQ2 Gas Leak Detection
+- 🌡️ Temperature & Humidity Monitoring (DHT11)
+- 💡 Automatic Light Detection (LDR)
+- 🚨 Smart Buzzer Alarm System
+- 🌈 RGB LED Status Indicator
+- 📺 OLED Live Sensor Display
+- 📟 LCD Status Display
+- 🔢 4×4 Keypad Authentication
+- ⚙️ Servo Motor Door Control
+- 📡 Real-Time IoT Monitoring
+
+---
+
+## 🛠️ Hardware Components
+
+- ESP32 DevKit V1
+- OLED Display (SSD1306)
+- LCD 16×2 I2C
+- DHT11 Sensor
+- MQ2 Gas Sensor
+- LDR Sensor
+- Servo Motor
+- RGB LED
+- Buzzer
+- 4×4 Matrix Keypad
+- Blynk IoT Platform
+
+---
+
+## 💻 Software & Technologies
+
+- Arduino C++
+- ESP32
+- PlatformIO
+- Wokwi Simulator
+- Blynk IoT
+- GitHub
+
+---
+
+## ⚙️ Working Principle
+
+1. User enters the password through the keypad.
+2. If the password is correct, the servo unlocks the door.
+3. The DHT11 continuously monitors temperature and humidity.
+4. The MQ2 sensor detects gas leakage.
+5. The LDR monitors ambient light conditions.
+6. OLED and LCD display live sensor values.
+7. RGB LED indicates system status.
+8. Buzzer activates during emergencies.
+9. Sensor data is sent to the Blynk cloud for remote monitoring.
+
+---
+
+## 🚀 Project Outcome
+
+This project demonstrates a cloud-connected smart home security solution capable of monitoring environmental conditions, protecting home access, detecting emergencies, and providing real-time IoT notifications. It showcases embedded systems, cloud computing, and IoT integration using ESP32.
+
+---
+
+## 📷 Additional Screenshots
+
+![Simulation](images/project4/home2.png)
+
+![Dashboard](images/project4/home3.png)
 
 📊 Project Comparison
 
