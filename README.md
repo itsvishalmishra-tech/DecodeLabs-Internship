@@ -46,7 +46,7 @@ Project| Description
 
 ---
 
-🌍 Project 1 — Smart Environment Monitoring System
+#🌍 Project 1 — Smart Environment Monitoring System
 
 📸 Project Preview
 
