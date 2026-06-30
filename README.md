@@ -454,7 +454,7 @@ DecodeLabs-Internship/
 ## 🌱 Smart Irrigation
 
 <p align="center">
-<img src="Images/Project%202.png" width="700">
+<img width="533" height="651" alt="project 2" src="https://github.com/user-attachments/assets/b24e3cca-a875-4112-b44a-2ba30b6a9299" />
 </p>
 
 ---
@@ -462,15 +462,16 @@ DecodeLabs-Internship/
 ## 🔐 Cloud Connected Security Node
 
 <p align="center">
-<img src="Images/Project%203.png" width="700">
+<img width="640" height="665" alt="project 3" src="https://github.com/user-attachments/assets/1c632a0c-761d-4ad6-b201-462cee60c433" />
 </p>
 
 ---
 
-## 🏠 Smart Home Appliance Security
+## 🏠 Edge Computing Smart Home Appliance 
 
 <p align="center">
-<img src="Images/Project%204.png" width="700">
+<img width="843" height="715" alt="project 4" src="https://github.com/user-attachments/assets/bc99e3a8-2d8e-4539-86d0-b55c5bed7db3" />
+
 </p>
 
 ---
