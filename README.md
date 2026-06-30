@@ -35,7 +35,7 @@ The projects are developed using **Arduino C++**, simulated using **Wokwi**, and
 | 🌍 Smart Environment Monitoring System | Real-time monitoring of environmental conditions including temperature, humidity and air quality. |
 | 🌱 IoT-Based Smart Irrigation System | Automated irrigation system based on soil moisture sensing and IoT monitoring. |
 | 🔐 Cloud Connected Security Node | Smart security system with cloud telemetry, intrusion detection and remote monitoring. |
-| 🏠 Smart Home Appliance Security System | Password-protected smart home security with keypad, servo lock and cloud connectivity. |
+| 🏠 Edge Computing Smart Home Appliance | ESP32-based IoT system for temperature, humidity and gas monitoring with relay control, servo automation, OLED/LCD display and Blynk cloud monitoring. | 
 
 ---
 
@@ -320,7 +320,7 @@ The system publishes live IoT data including:
 > Paste your Wokwi Project Link here.
 
 ---
-# 🏠 Project 4 — Smart Home Appliance Security System
+# 🏠 Project 4 — Edge Computing Smart Home Appliance 
 
 ## 📷 Project Preview
 
@@ -332,40 +332,37 @@ The system publishes live IoT data including:
 
 ## 📖 Overview
 
-The **Smart Home Appliance Security System** is a cloud-enabled ESP32 IoT solution designed to improve home safety through intelligent monitoring, secure access control, and real-time automation. It combines multiple sensors, a keypad-based authentication system, servo-controlled door locking, OLED & LCD displays, and Blynk cloud monitoring to create a complete smart home security platform.
+The **Edge Computing Smart Home Appliance** is an ESP32-based IoT project that monitors temperature, humidity, and gas leakage while controlling home appliances using a relay and servo motor. The system displays real-time data on OLED and LCD displays and sends live sensor data to the Blynk IoT Cloud for remote monitoring.
 
 ---
 
 ## ✨ Key Features
 
-- 🔐 Password Protected Smart Door Lock
 - ☁️ Blynk Cloud Monitoring
-- 📱 Remote Monitoring
-- 👁 PIR Motion Detection
-- 📏 Ultrasonic Distance Detection
-- 🌡 Temperature & Humidity Monitoring
-- 🔢 4×4 Keypad Authentication
-- ⚙️ Servo Motor Door Control
+- 🌡️ Temperature & Humidity Monitoring
+- 🔥 MQ2 Gas Leak Detection
+- 🔌 Relay-Based Appliance Control
+- ⚙️ Servo Motor Control
 - 📟 OLED Live Display
-- 🖥 LCD1602 Status Display
-- 🌈 RGB Status Indicator
-- 🔔 Smart Alarm System
-- ⚡ ESP32 Wi-Fi Connectivity
+- 🖥️ LCD Live Display
+- 🌈 RGB LED Status Indicator
+- 🚨 Smart Buzzer Alarm
+- 📱 Remote Monitoring using Blynk
 
 ---
 
 ## 🛠 Hardware Components
 
 - ESP32 DevKit V1
-- HC-SR04 Ultrasonic Sensor
-- PIR Motion Sensor
 - DHT22 Sensor
-- 4×4 Matrix Keypad
+- MQ2 Gas Sensor
 - Servo Motor
 - OLED Display (SSD1306)
-- LCD1602 I2C Display
+- 16x2 LCD Display (I2c)
+- Relay Module 
 - RGB LED
 - Active Buzzer
+- Blynk IOT Platform
 - Breadboard
 - Jumper Wires
 
@@ -385,16 +382,15 @@ The **Smart Home Appliance Security System** is a cloud-enabled ESP32 IoT soluti
 
 ## 🚀 Working Principle
 
-1. ESP32 continuously monitors all connected sensors.
-2. Users authenticate using the keypad.
-3. Servo motor unlocks or locks the door.
-4. Motion and distance sensors detect intrusions.
-5. Temperature and humidity are monitored continuously.
-6. OLED and LCD display live system status.
-7. RGB LED indicates system condition.
-8. Buzzer generates alerts during abnormal events.
-9. All important data is synchronized with the Blynk IoT Cloud.
-
+1. ESP32 reads temperature and humidity from the DHT22 sensor.
+2. MQ2 continuously monitors gas concentration.
+3. OLED and LCD display live sensor readings.
+4. RGB LED indicates the current system status.
+5. Buzzer activates when dangerous gas levels are detected.
+6. Relay controls the connected appliance.
+7. Servo motor performs automated control operations.
+8. Sensor data is uploaded to the Blynk IoT Cloud.
+9. Users can monitor the system remotely through the Blynk mobile application.
 ---
 
 ## 🎯 Applications
@@ -453,6 +449,7 @@ DecodeLabs-Internship/
 <p align="center">
 <img src="Images/Project%201.png" width="700">
 </p>
+<img width="616" height="616" alt="project 1" src="https://github.com/user-attachments/assets/475d7cff-7aad-4059-b876-eba76d10ca7b" />
 
 ---
 
