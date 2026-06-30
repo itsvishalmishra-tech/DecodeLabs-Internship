@@ -447,10 +447,8 @@ DecodeLabs-Internship/
 ## 🌍 Smart Environment Monitoring
 
 <p align="center">
-<img src="Images/Project%201.png" width="700">
-</p>
 <img width="616" height="616" alt="project 1" src="https://github.com/user-attachments/assets/475d7cff-7aad-4059-b876-eba76d10ca7b" />
-
+</p>
 ---
 
 ## 🌱 Smart Irrigation
