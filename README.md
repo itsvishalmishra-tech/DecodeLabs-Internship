@@ -7,7 +7,7 @@
 ### Smart Environment Monitoring • Smart Irrigation • Cloud Security • Smart Home Appliance Security
 
 <p align="center">
-<img src="Images/Banner.png" width="100%" alt="DecodeLabs Internship Portfolio">
+<img width="1983" height="793" alt="Banner" src="https://github.com/user-attachments/assets/f5d8a37e-f358-41f2-9340-dd373e71ea3c" />
 </p>
 
 ![ESP32](https://img.shields.io/badge/ESP32-IoT-red?style=for-the-badge)
@@ -118,7 +118,7 @@ The **Smart Environment Monitoring System** is an ESP32-based IoT solution desig
 
 ## 🔗 Wokwi Simulation
 
-> Paste your Wokwi Project Link here.
+> https://wokwi.com/projects/466689751681985537
 
 ---
 # 🌱 Project 2 — IoT-Based Smart Irrigation System
@@ -206,7 +206,7 @@ The **IoT-Based Smart Irrigation System** is an ESP32-powered smart agriculture 
 
 ## 🔗 Wokwi Simulation
 
-> Paste your Wokwi Project Link here.
+> https://wokwi.com/projects/467186880132395009
 
 ---
 # 🔐 Project 3 — Cloud Connected Security Node
@@ -317,7 +317,7 @@ The system publishes live IoT data including:
 
 ## 🔗 Wokwi Simulation
 
-> Paste your Wokwi Project Link here.
+> https://wokwi.com/projects/467558183957384193
 
 ---
 # 🏠 Project 4 — Edge Computing Smart Home Appliance 
@@ -405,7 +405,7 @@ The **Edge Computing Smart Home Appliance** is an ESP32-based IoT project that m
 
 ## 🔗 Wokwi Simulation
 
-> Paste your Wokwi Project Link here.
+> https://wokwi.com/projects/467873488662150145
 
 ---
 
