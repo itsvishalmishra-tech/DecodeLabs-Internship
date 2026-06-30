@@ -44,7 +44,7 @@ The projects are developed using **Arduino C++**, simulated using **Wokwi**, and
 ## 📷 Project Preview
 
 <p align="center">
-<img src="Images/Project%201.png" width="850" alt="Smart Environment Monitoring System">
+<img width="616" height="616" alt="project 1" src="https://github.com/user-attachments/assets/d1601bc4-5b41-4ec9-8876-adfd84aeea41" />
 </p>
 
 ---
@@ -126,7 +126,7 @@ The **Smart Environment Monitoring System** is an ESP32-based IoT solution desig
 ## 📷 Project Preview
 
 <p align="center">
-<img src="Images/Project%202.png" width="850" alt="IoT-Based Smart Irrigation System">
+<img width="533" height="651" alt="project 2" src="https://github.com/user-attachments/assets/cabb6869-f278-4c5c-ba73-55ef863c1834" />
 </p>
 
 ---
@@ -214,7 +214,7 @@ The **IoT-Based Smart Irrigation System** is an ESP32-powered smart agriculture 
 ## 📷 Project Preview
 
 <p align="center">
-  <img src="Images/Project%203.png" width="850" alt="Cloud Connected Security Node">
+<img width="640" height="665" alt="project 3" src="https://github.com/user-attachments/assets/9ab77e91-fc46-47b9-9be2-57b89c51d4f9" />
 </p>
 
 ---
@@ -325,7 +325,7 @@ The system publishes live IoT data including:
 ## 📷 Project Preview
 
 <p align="center">
-  <img src="Images/Project%204.png" width="850" alt="Smart Home Appliance Security System">
+<img width="843" height="715" alt="project 4" src="https://github.com/user-attachments/assets/5681709f-7ee6-452d-8d77-9a2278f071b0" />
 </p>
 
 ---
