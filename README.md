@@ -559,9 +559,9 @@ If you'd like to improve these projects:
 
 🎓 DecodeLabs Internship
 
-⭐ GitHub: https://github.com/YOUR_USERNAME
+⭐ GitHub: https://github.com/itsvishalmishra-tech
 
-📧 Email: your_email@example.com
+📧 Email: Vishal995mishra@gmail.com
 
 </div>
 
@@ -571,6 +571,6 @@ If you'd like to improve these projects:
 
 ## ⭐ If you found this repository useful, don't forget to Star it!
 
-Made with ❤️ using ESP32 • Arduino • PlatformIO • Wokwi • Blynk IoT
+Made with ✨ using ESP32 • Arduino • PlatformIO • Wokwi • Blynk IoT for Smart Cloud Connected Security Node
 
 </div>
